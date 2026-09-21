@@ -1,0 +1,26 @@
+Categories:
+  - Multimedia
+License: GPL-3.0-or-later
+AuthorName: Savage Lions contributors
+Summary: Source-transparent, offline overview of Idol 2026
+Description: |-
+  An independent, fully offline Swedish overview of public information about
+  Idol 2026. It presents source-backed broadcasts, participants and performances,
+  labels gaps and anecdotal material, and includes a fictional scenario lab.
+
+  No account, permissions, ads, analytics, trackers, or network access.
+
+  Not affiliated with or endorsed by TV4, Idol, or format rights holders.
+RepoType: git
+Repo: https://github.com/studiolex031/idol-insight.git
+Builds:
+  - versionName: 1.0.0
+    versionCode: 1
+    commit: v1.0.0
+    subdir: app
+    gradle:
+      - yes
+AutoUpdateMode: None
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.0
+CurrentVersionCode: 1
