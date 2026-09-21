@@ -1,0 +1,56 @@
+import java.util.Properties
+
+plugins { id 'com.android.application' }
+
+def signingProps = new Properties()
+def signingFile = rootProject.file('signing.properties')
+if (signingFile.exists()) signingFile.withInputStream { signingProps.load(it) }
+def secret = { String envName, String propertyName ->
+    def v = System.getenv(envName)
+    if (v == null || v.trim().isEmpty()) v = signingProps.getProperty(propertyName)
+    return v
+}
+def releaseStoreFile = secret('IDOL_KEYSTORE_PATH', 'storeFile')
+def releaseStorePassword = secret('IDOL_KEYSTORE_PASSWORD', 'storePassword')
+def releaseKeyAlias = secret('IDOL_KEY_ALIAS', 'keyAlias')
+def releaseKeyPassword = secret('IDOL_KEY_PASSWORD', 'keyPassword')
+def hasReleaseSigning = [releaseStoreFile, releaseStorePassword, releaseKeyAlias, releaseKeyPassword].every { it != null && !it.trim().isEmpty() }
+
+android {
+    namespace 'se.savagelions.idolinsight'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'se.savagelions.idolinsight'
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    if (hasReleaseSigning) {
+        signingConfigs {
+            release {
+                storeFile file(releaseStoreFile)
+                storePassword releaseStorePassword
+                keyAlias releaseKeyAlias
+                keyPassword releaseKeyPassword
+                enableV1Signing true
+                enableV2Signing true
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            if (hasReleaseSigning) signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
