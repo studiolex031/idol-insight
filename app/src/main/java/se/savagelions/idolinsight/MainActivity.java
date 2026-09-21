@@ -1,5 +1,6 @@
 package se.savagelions.idolinsight;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -79,6 +80,7 @@ public final class MainActivity extends Activity {
         @Override public WebResourceResponse shouldInterceptRequest(WebView view, String url) {
             return localResponse(Uri.parse(url));
         }
+        @TargetApi(27)
         @Override public void onSafeBrowsingHit(WebView view, WebResourceRequest request, int threatType, SafeBrowsingResponse callback) {
             callback.backToSafety(true);
         }

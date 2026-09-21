@@ -1,0 +1,1 @@
+Rättar Android 7-kompatibilitet för WebViews Safe Browsing-callback och lägger till automatiserad byggverifiering.
