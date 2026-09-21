@@ -1,0 +1,63 @@
+name: Android build verification
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: android-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Verify F-Droid metadata and offline manifest
+        shell: bash
+        run: |
+          grep -F 'Repo: https://github.com/studiolex031/idol-insight.git' .fdroid.yml
+          test "$(grep -c '<uses-permission' app/src/main/AndroidManifest.xml || true)" -eq 0
+
+      - name: Build unsigned release APK
+        shell: bash
+        run: |
+          chmod +x gradlew
+          ./gradlew clean lintRelease assembleRelease --no-daemon --stacktrace
+
+      - name: Record APK checksum
+        shell: bash
+        run: sha256sum app/build/outputs/apk/release/app-release-unsigned.apk | tee app-release-unsigned.apk.sha256
+
+      - name: Upload verification artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: idol-insight-v1-build-verification
+          path: |
+            app/build/outputs/apk/release/app-release-unsigned.apk
+            app-release-unsigned.apk.sha256
+            app/build/reports/lint-results-release.html
+          if-no-files-found: error
+          retention-days: 14
