@@ -1,0 +1,899 @@
+{
+  "schema_version": "1.0",
+  "dataset": "idol_sweden_current_season",
+  "as_of": "2026-09-21T13:06:16+02:00",
+  "research_status": "best_effort_gaps",
+  "season": {
+    "name": "Idol 2026",
+    "country": "Sweden",
+    "season_number": 22,
+    "premiere_date": "2026-08-22",
+    "premiere_time_local": "20:00",
+    "broadcasters": [
+      "TV4",
+      "TV4 Play"
+    ],
+    "confidence": "high",
+    "sources": [
+      {
+        "url": "https://www.tv4play.se/program/7553278e8b716e5f5928/idol",
+        "type": "official_tv4_play",
+        "accessed": "2026-09-21"
+      },
+      {
+        "url": "https://www.aftonbladet.se/nojesbladet/a/wr4AA1/nya-idol-jurymedlemmen-hemskt-att-saga-nej",
+        "type": "reputable_media_tt",
+        "published": "2026-08-20"
+      },
+      {
+        "url": "https://sv.wikipedia.org/wiki/Idol_2026",
+        "type": "secondary_control",
+        "accessed": "2026-09-21"
+      }
+    ]
+  },
+  "broadcast": {
+    "normal_day": "Saturday",
+    "normal_time_local": "20:00-21:30",
+    "current_status": "Four audition episodes and slutaudition part 1/chorus line have aired; group round is next.",
+    "episodes_verified": [
+      {
+        "date": "2026-08-22",
+        "stage": "audition_1",
+        "status": "aired"
+      },
+      {
+        "date": "2026-08-29",
+        "stage": "audition_2",
+        "status": "aired"
+      },
+      {
+        "date": "2026-09-05",
+        "time": "20:00-21:30",
+        "stage": "audition_3",
+        "status": "aired",
+        "source": "https://www.tv4.se/tabla/2026-09-05"
+      },
+      {
+        "date": "2026-09-12",
+        "stage": "audition_4",
+        "status": "released_on_tv4_play_not_tv4_due_to_election_debate",
+        "source": "https://www.tv4.se/artikel/2E9W2kPae8LFPWYsudoY7b/idol-flyttas-i-tablan"
+      },
+      {
+        "date": "2026-09-16",
+        "time": "20:00-21:30",
+        "stage": "audition_4_tv_broadcast",
+        "status": "aired",
+        "source": "https://www.tv4.se/tabla/2026-09-16"
+      },
+      {
+        "date": "2026-09-19",
+        "time": "20:00-21:30",
+        "stage": "slutaudition_chorus_line",
+        "status": "aired",
+        "source": "https://www.tv4.se/tabla/2026-09-19"
+      },
+      {
+        "date": "2026-09-26",
+        "time": "20:00-21:30",
+        "stage": "slutaudition_group_round",
+        "status": "scheduled",
+        "source": "https://www.tv4.se/tabla/2026-09-26"
+      }
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.tv4.se/idol",
+      "https://www.tv4.se/tabla/2026-09-05",
+      "https://www.tv4.se/artikel/2E9W2kPae8LFPWYsudoY7b/idol-flyttas-i-tablan",
+      "https://www.tv4.se/tabla/2026-09-16",
+      "https://www.tv4.se/tabla/2026-09-19",
+      "https://www.tv4.se/tabla/2026-09-26"
+    ]
+  },
+  "hosts": [
+    {
+      "name": "Pär Lernström",
+      "role": "main_host",
+      "scope": "season",
+      "confidence": "high",
+      "sources": [
+        "https://www.tv4.se/artikel/4hIA7XuMv6PgFgSt2oAOjW/hon-blir-ny-programledare-foer-idol",
+        "https://www.aftonbladet.se/nojesbladet/a/wr4AA1/nya-idol-jurymedlemmen-hemskt-att-saga-nej"
+      ]
+    },
+    {
+      "name": "Kristina 'Keyyo' Petrushina",
+      "role": "co_host_sidekick",
+      "scope": "audition/pre-recorded episodes",
+      "confidence": "high",
+      "sources": [
+        "https://www.tv4.se/artikel/4hIA7XuMv6PgFgSt2oAOjW/hon-blir-ny-programledare-foer-idol"
+      ]
+    }
+  ],
+  "judges": {
+    "main": [
+      {
+        "name": "Anders Bagge"
+      },
+      {
+        "name": "Katia Mosally"
+      },
+      {
+        "name": "Peg Parnevik"
+      },
+      {
+        "name": "Oliver Norqvist",
+        "new_for_2026": true,
+        "replaces": "Ash Pournouri"
+      }
+    ],
+    "iconic_jury": [
+      {
+        "name": "Tilda Törnqvist"
+      },
+      {
+        "name": "Julia Ringblom"
+      },
+      {
+        "name": "Johanna Öholm"
+      },
+      {
+        "name": "Sem Bloom"
+      }
+    ],
+    "confidence": "high",
+    "sources": [
+      "https://www.tv4.se/artikel/5z3dgZerzsK7As6OttphZM/nya-jurymedlemmen-det-var-lika-otippat-foer-mig",
+      "https://www.tv4.se/artikel/1eHVvbGEdmzWB4fuqyYIse/the-iconic-jury-sista-chansen-i-idol-2026",
+      "https://www.aftonbladet.se/nojesbladet/a/wr4AA1/nya-idol-jurymedlemmen-hemskt-att-saga-nej"
+    ]
+  },
+  "format": {
+    "facts": [
+      {
+        "id": "digital_application",
+        "claim": "Applicants first submitted a digital/home audition.",
+        "confidence": "high",
+        "sources": [
+          "https://www.tv4.se/artikel/1XDZAaWyqcEHMQFsjzNv2X/nu-kan-du-soeka-till-idol-2026"
+        ]
+      },
+      {
+        "id": "minimum_age",
+        "claim": "Entrants must turn 16 no later than 1 September 2026.",
+        "confidence": "high",
+        "sources": [
+          "https://www.tv4.se/artikel/1XDZAaWyqcEHMQFsjzNv2X/nu-kan-du-soeka-till-idol-2026"
+        ]
+      },
+      {
+        "id": "iconic_jury_second_chance",
+        "claim": "Late applicants received a filmed second chance before The Iconic Jury.",
+        "confidence": "high",
+        "sources": [
+          "https://www.tv4.se/artikel/1eHVvbGEdmzWB4fuqyYIse/the-iconic-jury-sista-chansen-i-idol-2026",
+          "https://www.youtube.com/watch?v=nuv9L3z92vc"
+        ]
+      },
+      {
+        "id": "slutaudition_scale",
+        "claim": "75 contestants compete for 16 live-show places.",
+        "confidence": "medium",
+        "sources": [
+          "https://hurbra.se/idol-19-september-2026-slutaudition/"
+        ]
+      },
+      {
+        "id": "chorus_line",
+        "claim": "Slutaudition part 1 used the chorus-line format.",
+        "confidence": "high",
+        "sources": [
+          "https://www.tv4.se/tabla/2026-09-19"
+        ]
+      },
+      {
+        "id": "group_round",
+        "claim": "The group round returns on 26 September 2026.",
+        "confidence": "high",
+        "sources": [
+          "https://www.tv4.se/tabla/2026-09-26"
+        ]
+      },
+      {
+        "id": "platinum_tickets",
+        "claim": "Three platinum-ticket contestants performed together and received an advantage in the group round.",
+        "confidence": "medium",
+        "sources": [
+          "https://www.youtube.com/watch?v=u3OGO7P6N-Y",
+          "https://www.youtube.com/watch?v=lU0itzd0b1U",
+          "https://sv.wikipedia.org/wiki/Idol_2026"
+        ]
+      }
+    ],
+    "verified_locations": [
+      {
+        "place": "Filadelfiakyrkan, Stockholm",
+        "purpose": "ordinary jury auditions/slutaudition",
+        "confidence": "medium",
+        "sources": [
+          "https://www.tv4.se/artikel/rA7TYrsbvWrhD8QXxEGZt/idols-slutaudition-kom-och-sitt-i-publiken",
+          "https://sv.wikipedia.org/wiki/Idol_2026"
+        ]
+      },
+      {
+        "place": "The Node, Sergels torg, Stockholm",
+        "purpose": "The Iconic Jury second-chance audition",
+        "confidence": "medium",
+        "sources": [
+          "https://www.tv4.se/artikel/1eHVvbGEdmzWB4fuqyYIse/the-iconic-jury-sista-chansen-i-idol-2026",
+          "https://sv.wikipedia.org/wiki/Idol_2026"
+        ]
+      }
+    ],
+    "excluded_stale_claim": {
+      "claim": "Stockholm-Gothenburg-Malmö-Åre audition tour",
+      "reason": "The discoverable TV4 press URL is a 2022 release whose slug/search snippet is easily misread as 2026.",
+      "source": "https://press.tv4.se/post/sa-blir-nya-idol"
+    }
+  },
+  "contestants": {
+    "completeness": "officially_documented_names_only_not_complete_75",
+    "top_16_public_as_of_cutoff": false,
+    "eliminations_complete_list_public": false,
+    "known": [
+      {
+        "name": "Adrián Beliser Sierpe",
+        "stages": [
+          "slutaudition"
+        ],
+        "source": "https://www.youtube.com/watch?v=S2otHj95Mtg"
+      },
+      {
+        "name": "Liam Rasmussen",
+        "stages": [
+          "slutaudition"
+        ],
+        "source": "https://www.youtube.com/watch?v=-gOuCJ7yheA"
+      },
+      {
+        "name": "Max Lautner",
+        "stages": [
+          "audition",
+          "slutaudition"
+        ],
+        "sources": [
+          "https://www.youtube.com/watch?v=nAPqGeD7X-M",
+          "https://www.youtube.com/watch?v=6r3T5uEuYgw"
+        ]
+      },
+      {
+        "name": "Lovisa Gundersen",
+        "stages": [
+          "slutaudition"
+        ],
+        "source": "https://www.youtube.com/watch?v=DTd2nuNgqn0"
+      },
+      {
+        "name": "Julia Eriksson",
+        "stages": [
+          "audition",
+          "slutaudition"
+        ],
+        "sources": [
+          "https://www.youtube.com/watch?v=g8iBbc-64E8",
+          "https://www.youtube.com/watch?v=EGlL9UMkIm0"
+        ]
+      },
+      {
+        "name": "Ville Löfgren",
+        "stages": [
+          "slutaudition"
+        ],
+        "source": "https://www.youtube.com/watch?v=yb5x-8NH-ns"
+      },
+      {
+        "name": "Elliot Baglivi",
+        "stages": [
+          "slutaudition"
+        ],
+        "source": "https://www.youtube.com/watch?v=FUOAn2ezy1Y"
+      },
+      {
+        "name": "Axel Lundström",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=1ClHVteI9P0"
+      },
+      {
+        "name": "Håkan Wang",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=uTToQSkC0Tc"
+      },
+      {
+        "name": "Theo Brandes",
+        "stages": [
+          "audition",
+          "chorus_line_clip"
+        ],
+        "sources": [
+          "https://www.youtube.com/watch?v=3NvKMMV6n8U",
+          "https://www.youtube.com/watch?v=jEc57nF-hH8"
+        ]
+      },
+      {
+        "name": "Laban Berglin",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=SO0EfuxrJAY"
+      },
+      {
+        "name": "Linn Östman",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=Df9CF951CAo"
+      },
+      {
+        "name": "Alva Anfinset",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=Vccd5MgJN3E"
+      },
+      {
+        "name": "Anna Isaksson",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=BBylqU56c5s"
+      },
+      {
+        "name": "Neville Ristenfeldt",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=G5wuXRoAtEY"
+      },
+      {
+        "name": "Nova-Li Svensson",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=xHZr07ia2pI"
+      },
+      {
+        "name": "Violet Salen",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=0hFMuPdlypo"
+      },
+      {
+        "name": "Alfred Bankel",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=tMIAGiJ3KVk"
+      },
+      {
+        "name": "Leija Ulming",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=G2oXVW2HatE"
+      },
+      {
+        "name": "Erik Nordstedt",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=P78z8uUC9Xo"
+      },
+      {
+        "name": "Wilda Pettersson",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=K85UpXNZdyc"
+      },
+      {
+        "name": "Albina Lugici",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=Q9aY0wZsLYE"
+      },
+      {
+        "name": "Theo Ciccone",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=jhpxI4FSko0"
+      },
+      {
+        "name": "Nova Lisa Brännhult",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=uTih6hBR92s"
+      },
+      {
+        "name": "Love Adriansson",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=DHpVFVccofY"
+      },
+      {
+        "name": "Saga Uvemark",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=DAmOu8wkx0U"
+      },
+      {
+        "name": "Bligh Walter",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=72tEN7sGWv0"
+      },
+      {
+        "name": "Olivia Ljung",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=o7slifE4-yY"
+      },
+      {
+        "name": "My Persson",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=Ou0z72QMfy4"
+      },
+      {
+        "name": "Ella Magnusson",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=Hy4wpTwyOcs"
+      },
+      {
+        "name": "Louise 'Mary Lou' Siecke",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=NVOdoQBj-KA"
+      },
+      {
+        "name": "Hugo Månstråle",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=a4isMSH8t88"
+      },
+      {
+        "name": "Anton Landén",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=KZDM7a14GvY"
+      },
+      {
+        "name": "Isabella Forsberg",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=65sGRbV4pd4"
+      },
+      {
+        "name": "Louise Engdahl",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=ssibiE58aAc"
+      },
+      {
+        "name": "Felicia Andersson",
+        "stages": [
+          "audition"
+        ],
+        "source": "https://www.youtube.com/watch?v=q3aBs-ZhoJY"
+      }
+    ]
+  },
+  "performances": [
+    {
+      "contestant": "Adrián Beliser Sierpe",
+      "song": "Your Song",
+      "artist": "Elton John",
+      "stage": "slutaudition",
+      "source": "https://www.youtube.com/watch?v=S2otHj95Mtg"
+    },
+    {
+      "contestant": "Liam Rasmussen",
+      "song": "Here Comes the Sun",
+      "artist": "The Beatles",
+      "stage": "slutaudition",
+      "source": "https://www.youtube.com/watch?v=-gOuCJ7yheA"
+    },
+    {
+      "contestant": "Max Lautner",
+      "song": "FourFiveSeconds",
+      "artist_as_official_title": "Rihanna",
+      "stage": "slutaudition",
+      "source": "https://www.youtube.com/watch?v=6r3T5uEuYgw"
+    },
+    {
+      "contestant": "Lovisa Gundersen",
+      "song": "Lay All Your Love on Me",
+      "artist": "ABBA",
+      "stage": "slutaudition",
+      "source": "https://www.youtube.com/watch?v=DTd2nuNgqn0"
+    },
+    {
+      "contestant": "Julia Eriksson",
+      "song": "abcdefu",
+      "artist": "Gayle",
+      "stage": "slutaudition",
+      "source": "https://www.youtube.com/watch?v=EGlL9UMkIm0"
+    },
+    {
+      "contestant": "Ville Löfgren",
+      "song": "Here I Go Again",
+      "artist": "Whitesnake",
+      "stage": "slutaudition",
+      "source": "https://www.youtube.com/watch?v=yb5x-8NH-ns"
+    },
+    {
+      "contestant": "Elliot Baglivi",
+      "song": "Your Song",
+      "artist": "Elton John",
+      "stage": "slutaudition",
+      "source": "https://www.youtube.com/watch?v=FUOAn2ezy1Y"
+    },
+    {
+      "contestant": "platinum_ticket_trio",
+      "song": "We Are Young",
+      "artist": "Fun.",
+      "stage": "slutaudition",
+      "source": "https://www.youtube.com/watch?v=lU0itzd0b1U"
+    },
+    {
+      "contestant": "Axel Lundström",
+      "song": "Strong Enough",
+      "artist": "Cher",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=1ClHVteI9P0"
+    },
+    {
+      "contestant": "Theo Brandes",
+      "song": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=3NvKMMV6n8U"
+    },
+    {
+      "contestant": "Laban Berglin",
+      "song": "The Night We Met",
+      "artist": "Lord Huron",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=SO0EfuxrJAY"
+    },
+    {
+      "contestant": "Linn Östman",
+      "song": "Cry Me a River",
+      "artist": "Justin Timberlake",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=Df9CF951CAo"
+    },
+    {
+      "contestant": "Alva Anfinset",
+      "song": "Hus utan speglar",
+      "artist": "Peg Parnevik",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=Vccd5MgJN3E"
+    },
+    {
+      "contestant": "Anna Isaksson",
+      "song": "So Good",
+      "artist": "Zara Larsson",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=BBylqU56c5s"
+    },
+    {
+      "contestant": "Neville Ristenfeldt",
+      "song": "Smile",
+      "artist": "Benjamin Ingrosso",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=G5wuXRoAtEY"
+    },
+    {
+      "contestant": "Alfred Bankel",
+      "song": "Coming Up Roses",
+      "artist": "Harry Styles",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=tMIAGiJ3KVk"
+    },
+    {
+      "contestant": "Erik Nordstedt",
+      "song": "Fuck This Job",
+      "artist": "Wheeler Walker Jr.",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=P78z8uUC9Xo"
+    },
+    {
+      "contestant": "Wilda Pettersson",
+      "song": "Daddy Doesn't Pray Anymore",
+      "artist": "Chris Stapleton",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=K85UpXNZdyc"
+    },
+    {
+      "contestant": "Julia Eriksson",
+      "song": "Fame",
+      "artist": "Irene Cara",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=g8iBbc-64E8"
+    },
+    {
+      "contestant": "Theo Ciccone",
+      "song": "Landslide",
+      "artist": "Fleetwood Mac",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=jhpxI4FSko0"
+    },
+    {
+      "contestant": "Nova Lisa Brännhult",
+      "song": "Just Give Me a Reason",
+      "artist": "Pink",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=uTih6hBR92s"
+    },
+    {
+      "contestant": "Saga Uvemark",
+      "song": "I Have Nothing",
+      "artist": "Whitney Houston",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=DAmOu8wkx0U"
+    },
+    {
+      "contestant": "Bligh Walter",
+      "song": "The Rose",
+      "artist": "Amanda McBroom",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=72tEN7sGWv0"
+    },
+    {
+      "contestant": "Olivia Ljung",
+      "song": "Addicted to You",
+      "artist": "Avicii",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=o7slifE4-yY"
+    },
+    {
+      "contestant": "My Persson",
+      "song": "Dancing on My Own",
+      "artist": "Robyn",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=Ou0z72QMfy4"
+    },
+    {
+      "contestant": "Ella Magnusson",
+      "song": "A Natural Woman",
+      "artist": "Aretha Franklin",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=Hy4wpTwyOcs"
+    },
+    {
+      "contestant": "Louise 'Mary Lou' Siecke",
+      "song": "Mercy",
+      "artist": "Duffy",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=NVOdoQBj-KA"
+    },
+    {
+      "contestant": "Anton Landén",
+      "song": "Heaven",
+      "artist": "Bryan Adams",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=KZDM7a14GvY"
+    },
+    {
+      "contestant": "Isabella Forsberg",
+      "song": "Ain't No Sunshine",
+      "artist": "Bill Withers",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=65sGRbV4pd4"
+    },
+    {
+      "contestant": "Louise Engdahl",
+      "song": "Love Me Still",
+      "artist": "Loulou LaMotte",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=ssibiE58aAc"
+    },
+    {
+      "contestant": "Felicia Andersson",
+      "song": "Supermarket Flowers",
+      "artist": "Ed Sheeran",
+      "stage": "audition",
+      "source": "https://www.youtube.com/watch?v=q3aBs-ZhoJY"
+    }
+  ],
+  "voting": {
+    "audience_voting_started_as_of_cutoff": false,
+    "official_2026_mechanics_public": false,
+    "vote_totals_public": false,
+    "safe_claim": "The public is expected to determine live-show advancement, but exact 2026 channels, prices, limits and windows had not been published by the cutoff.",
+    "do_not_reuse_as_2026": {
+      "note": "2025 used paid phone/SMS and free TV4 Play app votes; this is historical comparison only.",
+      "source": "https://www.tv4.se/artikel/1bOHUDKEStI8KxdpsJkpgV/sa-roestar-du-pa-din-favorit-i-idolfinalen-2025-all-roestningsinfo-listad"
+    },
+    "sources": [
+      "https://www.tv4.se/artikel/4fc01bf204bf72519400bba9/det-har-ar-idol-i-tv4"
+    ]
+  },
+  "public_reaction_anecdotal": {
+    "representative": false,
+    "primary_public_forum": "Flashback",
+    "coverage_note": "Approximately 140 posts across 12 public thread pages through 2026-09-21; conversation partly dominated by a few posters and includes personal attacks.",
+    "themes": [
+      {
+        "theme": "nostalgia_and_production_scale",
+        "summary": "Some posters miss a larger stage, more drama and older Idol aesthetics.",
+        "confidence": "medium_within_thread_low_population_validity",
+        "sources": [
+          "https://www.flashback.org/sp94826412",
+          "https://www.flashback.org/sp95622653"
+        ]
+      },
+      {
+        "theme": "positive_return_to_old_format",
+        "summary": "The return of group work and a more classic audition feel drew positive reactions.",
+        "confidence": "medium_within_thread_low_population_validity",
+        "sources": [
+          "https://www.flashback.org/sp95733910",
+          "https://www.flashback.org/sp95993212"
+        ]
+      },
+      {
+        "theme": "jury_too_soft_or_unconstructive",
+        "summary": "Some viewers call the jury too soft or insufficiently constructive; Katia's 'cringe' remark about Elliot drew criticism.",
+        "confidence": "medium_within_thread_low_population_validity",
+        "sources": [
+          "https://www.flashback.org/sp95755004",
+          "https://www.flashback.org/sp95992568"
+        ]
+      },
+      {
+        "theme": "skepticism_toward_influencer_jury",
+        "summary": "Initial skepticism about influencer judges coexisted with curiosity about the second-chance concept.",
+        "confidence": "medium_within_thread_low_population_validity",
+        "sources": [
+          "https://www.flashback.org/sp94770913",
+          "https://www.flashback.org/sp94776316"
+        ]
+      },
+      {
+        "theme": "contestant_enthusiasm",
+        "summary": "Individual praise appeared for Laban, Max, Love, Bligh, Adrián and Liam.",
+        "confidence": "high_that_posts_exist_low_representativeness",
+        "sources": [
+          "https://www.flashback.org/sp95804348",
+          "https://www.flashback.org/sp95862165",
+          "https://www.flashback.org/sp95863791",
+          "https://www.flashback.org/sp95992697"
+        ]
+      },
+      {
+        "theme": "polarized_season_quality",
+        "summary": "Posts range from calling the show extremely boring/worst season to a family resuming weekly viewing.",
+        "confidence": "high_that_polarization_exists_within_thread_low_representativeness",
+        "sources": [
+          "https://www.flashback.org/sp95750213",
+          "https://www.flashback.org/sp95836656",
+          "https://www.flashback.org/sp95984142"
+        ]
+      },
+      {
+        "theme": "editing_and_authenticity",
+        "summary": "Visible editing and pre-produced segments made the show feel constructed to some posters.",
+        "confidence": "medium_within_thread_low_population_validity",
+        "sources": [
+          "https://www.flashback.org/sp95750154",
+          "https://www.flashback.org/sp95984142"
+        ]
+      },
+      {
+        "theme": "advertising_interruptions",
+        "summary": "One clear post complained that frequent advertising harmed the viewing experience.",
+        "confidence": "low",
+        "sources": [
+          "https://www.flashback.org/sp95804597"
+        ]
+      }
+    ],
+    "access_gaps": [
+      {
+        "platform": "Reddit",
+        "state": "direct search returned HTTP 403; web search yielded no verified current threads"
+      },
+      {
+        "platform": "YouTube comments",
+        "state": "not reliably readable through public extraction"
+      },
+      {
+        "platform": "Instagram/Facebook comments",
+        "state": "dynamic/login-dependent loading prevented stable verification"
+      },
+      {
+        "platform": "X/TikTok",
+        "state": "no stable readable public posts verified"
+      }
+    ]
+  },
+  "unresolved_gaps": [
+    "Complete list of all 75 slutaudition contestants",
+    "Complete chorus-line eliminations and survivors",
+    "Names of all three platinum-ticket recipients",
+    "Top 16 live-show contestants after 26 September",
+    "First live-show and finale dates/format",
+    "Exact 2026 voting channels, prices, limits and windows",
+    "Any official vote totals",
+    "Broader representative social sentiment"
+  ],
+  "safe_demo_replacements": [
+    "season name and number",
+    "premiere date and normal broadcast slot",
+    "election-related schedule exception",
+    "hosts and judges",
+    "The Iconic Jury names and function",
+    "current stage and next episode",
+    "officially published contestant/performance rows",
+    "absence of public 2026 voting rules and vote totals",
+    "anecdotal reaction themes clearly labelled non-representative"
+  ],
+  "source_summary": {
+    "direct_urls_used_minimum": 68,
+    "types": {
+      "official_tv4_tv4play_schedule": 16,
+      "official_idol_sverige_videos": 31,
+      "reputable_media_and_secondary_controls": 3,
+      "public_forum_posts": 18
+    }
+  },
+  "notable_statements": [
+    {
+      "speaker": "Malin Knave",
+      "summary": "Malin Knave välkomnade Keyyo till Idol och beskrev henne som en uppskattad person och programledare.",
+      "source": "https://www.tv4.se/artikel/4hIA7XuMv6PgFgSt2oAOjW/hon-blir-ny-programledare-foer-idol",
+      "published": "2026-04-16",
+      "confidence": "high"
+    },
+    {
+      "speaker": "Oliver Norqvist",
+      "summary": "Oliver Norqvist beskrev det som känslomässigt svårt att säga nej till deltagare.",
+      "context": "om att säga nej till deltagare",
+      "source": "https://www.aftonbladet.se/nojesbladet/a/wr4AA1/nya-idol-jurymedlemmen-hemskt-att-saga-nej",
+      "published": "2026-08-20",
+      "confidence": "high"
+    },
+    {
+      "speaker": "Oliver Norqvist",
+      "summary": "Oliver Norqvist uppgav att juryrollen var oväntad även för honom.",
+      "context": "om att bli jurymedlem",
+      "source": "https://www.tv4.se/artikel/5z3dgZerzsK7As6OttphZM/nya-jurymedlemmen-det-var-lika-otippat-foer-mig",
+      "published": "2026-03-11",
+      "confidence": "high"
+    }
+  ]
+}
