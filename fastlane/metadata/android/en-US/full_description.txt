@@ -1,0 +1,7 @@
+Idol Insight is a colourful, independent and fully offline overview of the 2026 Swedish Idol season. It brings together source-backed information about broadcasts, documented participants and published performances. Missing information is shown as a gap rather than replaced with a guess.
+
+View verified broadcast status, participants and performances; distinguish facts from anecdotes and experiments; follow sources and data-status labels; try a clearly labelled fictional scenario lab; and save a local editorial note.
+
+No account, permissions or internet connection are required. The app contains no ads, analytics or tracking. External source links open in the system browser.
+
+Idol Insight is independent and is not affiliated with, sponsored by or endorsed by TV4, Idol or the format rights holders. No official logos, programme images or videos are republished.
